@@ -1,13 +1,15 @@
 #!/usr/bin/python
 
 # Sometimes I have to compare values to check the convergence
-# So I wanted to make this script to easy compare two files
+# so... I wrote this script to compare values in two epsilon log files
 # This script works for BerkeleyGW epsilon.log file
+# What you need: epsilon.log files 
+
+# Author:  Minjung Kim  (July 2018)
 
 import re
 from collections import deque
 
-# First thing first, we need two files of epsilon.log
 # set filename manually
 
 fname1 = "epsilon.log_2"

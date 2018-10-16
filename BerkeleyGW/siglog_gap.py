@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+# This script reads sigma.log file and report a gap
+
+# Author : Minjung Kim (May 2018)
+
 import sys
 
 if len(sys.argv) != 2:
